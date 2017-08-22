@@ -10,109 +10,86 @@
 
 /* Start here */
 
-#heading2 {
-    border: 2px green solid;
-}
-#outside {
-    border: 2px green solid;
-    padding: 30px;
-    width: 30%;
-}
-
-#outer {
-    border: 2px green solid;
-    padding: 30px;
-    width: 50%;
-}
-
-#organicgarlic {
-    border: 2px solid orange;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 15px;   
-    width: 700px
-        
-}
-#Next {
-    border: 2px solid orange;
-    padding: 30px;
-    width: 1100px
-}
-
-#last {
-    border: 2px solid green;
-    padding: 30px;
+body {
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
     
 }
 
-#urgh {
-    border: 2px solid green;
+#pn1 {
+   position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
-#uuu {
-    border: 2px solid green;
+#pn2 {
+   position: absolute;
+    left: 400px;
+    top: 600px;
 }
 
-
-.Fixed1 {
-    position: fixed;
+#pn3 {
+   position: absolute;
+    left: 900px;
+    top: 400px;
+}
+#pn4 {
+   position: absolute;
+    left: 100px;
+    top: 1400px;
 }
 
-.Leftspace {
-    margin-left: 50px;
+#pn5 {
+   position: absolute;
+    left: 500px;
+    top: 300px;
+}
+#pn6 {
+   position: absolute;
+    left: 800px;
+    top: 1200px;
+}
+#pn7 {
+   position: absolute;
+    left: 700px;
+    top: 10px;
 }
 
-#Pesto {
-    border: 5px dashed aqua;
-}
-#Pesto2 {
-    border: 5px dashed green;
-}
-
-#paragraph {
-    margin: 500px;
+#pn8 {
+   position: absolute;
+    left: 500px;
+    top: 300px;
 }
 
-#destroy {
-    font-size: 150px;
-    margin: 80px;
-    font-family: courier new;
-    padding: 200px;
-    border: 5px solid red;
-}
-#hey {
-    position: fixed;
+#pn9 {
+   position: absolute;
+    left: 100px;
+    top: 400px;
 }
 
-
-#hey2 {
-    font-size: 50px;
-    font-family: sans-serif;
-    
+#pn10 {
+   position: absolute;
+    left: 50px;
+    top: 800px;
+}
+#pn11 {
+   position: absolute;
+    left: 500px;
+    top: 950px;
+}
+#pn12 {
+   position: absolute;
+    left: 950px;
+    top: 850px;
 }
 
-
-#body3 {
-text-align: right
-}
-
-#body2 {
-    text-align: center;
-}
-#yo2 {
-   text-align: center;
-    font-size: 50px;
-    font-family: sans-serif;
-}
-.always {
-    text-align: center;
-    font-size: 400px;
-    font-family: cursive;
-        
-}
-.leave {
-    text-align: center;
-    font-family: monospace;
+#pesto {
+    position: absolute;
+    left: 800px;
+    top: 1300px;
+    color: beige;
+    font-family: arial;
+    font-kerning: 100px;
     font-size: 100px;
 }

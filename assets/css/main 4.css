@@ -10,109 +10,49 @@
 
 /* Start here */
 
-#heading2 {
-    border: 2px green solid;
-}
-#outside {
-    border: 2px green solid;
-    padding: 30px;
-    width: 30%;
-}
 
-#outer {
-    border: 2px green solid;
-    padding: 30px;
-    width: 50%;
-}
-
-#organicgarlic {
-    border: 2px solid orange;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 15px;   
-    width: 700px
-        
-}
-#Next {
-    border: 2px solid orange;
-    padding: 30px;
-    width: 1100px
-}
-
-#last {
-    border: 2px solid green;
-    padding: 30px;
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
     
-}
-
-#urgh {
-    border: 2px solid green;
-}
-
-#uuu {
-    border: 2px solid green;
-}
-
-
-.Fixed1 {
-    position: fixed;
-}
-
-.Leftspace {
-    margin-left: 50px;
-}
-
-#Pesto {
-    border: 5px dashed aqua;
-}
-#Pesto2 {
-    border: 5px dashed green;
-}
-
-#paragraph {
-    margin: 500px;
-}
-
-#destroy {
-    font-size: 150px;
-    margin: 80px;
-    font-family: courier new;
-    padding: 200px;
-    border: 5px solid red;
-}
-#hey {
-    position: fixed;
-}
-
-
-#hey2 {
-    font-size: 50px;
-    font-family: sans-serif;
+    .fly-in-text {
+        list-style: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
     
+    .fly-in-text li {
+        display: inline-block;
+        margin-right: 50px;
+        font-family: open sans, arial;
+        font-weight: 300;
+        font-size: 4em;
+        color: greenyellow;
+        opacity: 1;
+        transition: all 2.5s ease;
+    }
+    
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+
+.fly-in-text.hidden li {
+    opacity: 0;
 }
 
 
-#body3 {
-text-align: right
-}
+.fly-in-text.hidden li:nth-child(1) {transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2) {transform: translateX(20px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(3) {transform: translateX(-150px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4) {transform: translateX(10px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(5) {transform: translateX(30px) translateY(200px);}
 
-#body2 {
-    text-align: center;
-}
-#yo2 {
-   text-align: center;
-    font-size: 50px;
-    font-family: sans-serif;
-}
-.always {
-    text-align: center;
-    font-size: 400px;
-    font-family: cursive;
-        
-}
-.leave {
-    text-align: center;
-    font-family: monospace;
-    font-size: 100px;
-}
+
+
+
+
+
